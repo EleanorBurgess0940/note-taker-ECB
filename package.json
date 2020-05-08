@@ -14,7 +14,7 @@
   "author": "Elly Burgess",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4",
+    "express": "^4.16.3",
     "path": "^0.12.7"
   }
 }
