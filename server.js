@@ -2,7 +2,7 @@ var express = require("express");
 var path = require("path");
 var app = express();
 
-var PORT = 3000;
+var PORT = process.env.PORT || 3000;
 
 app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname + "assets/index.html"));

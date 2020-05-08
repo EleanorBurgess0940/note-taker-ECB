@@ -1,5 +1,14 @@
-app.get("/api/notes");
+const db = JSON.parse(fs.readFileSync("db/db.json"));
 
-app.post("/api/notes");
+module.exports = function (app) {
+  app.get("/api/notes", function (req, res) {
+    res.json(db);
+  });
 
-app.delete("/api/notes/:id");
+  app.post("/api/notes", function (req, res) {
+    db.push(req.body);
+    res.json(true);
+  });
+
+  app.delete("/api/notes/:id");
+};
