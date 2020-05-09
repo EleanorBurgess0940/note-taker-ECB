@@ -1,1 +1,6 @@
-[{"title":"Meow ","text":"is what a cat says","id":1},{"title":"Bark","text":"is what a dog says","id":2},{"title":"Moo","text":"is what a cow says","id":3},{"title":"Quack","text":"is what the duck says\n","id":4}]
+[
+  { "title": "Meow ", "text": "is what a cat says", "id": 1 },
+  { "title": "Bark", "text": "is what a dog says", "id": 2 },
+  { "title": "Moo", "text": "is what a cow says", "id": 3 },
+  { "title": "Quack", "text": "is what the duck says\n", "id": 4 }
+]
