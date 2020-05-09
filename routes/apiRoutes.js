@@ -1,17 +1,12 @@
 var fs = require("fs");
 
-const db = JSON.parse(fs.readFileSync("db/db.json"));
+const notesInfo = JSON.parse(fs.readFileSync("db.json"));
 
 module.exports = function (app) {
   app.get("/api/notes", function (req, res) {
-    res.json(db);
-    console.log("hello!");
+    return res.json(notesInfo);
   });
-
-  app.post("/api/notes", function (req, res) {
-    db.push(req.body);
-    res.json(true);
-  });
+  app.post("/api/notes");
 
   app.delete("/api/notes/:id");
 };

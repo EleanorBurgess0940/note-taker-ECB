@@ -3,5 +3,10 @@
     "title": "Meow ",
     "text": "is what a cat says",
     "id": 1
+  },
+  {
+    "title": "Bark",
+    "text": "is what a dog says",
+    "id": 2
   }
 ]
