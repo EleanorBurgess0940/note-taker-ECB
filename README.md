@@ -63,6 +63,6 @@ Contributions to this project are welcome.
 
 If you have an questions about the repo, open an issue or contact Elly Burgess directly at Eleanor.C.Burgess@gmail.com.
 
-### Video
+### Images
 
-![Employee summary](.public/assets/images/screenshot.png)
+![Note Taker](./public/assets/images/screenshot.png)
