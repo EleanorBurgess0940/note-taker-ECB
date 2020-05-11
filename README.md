@@ -65,4 +65,4 @@ If you have an questions about the repo, open an issue or contact Elly Burgess d
 
 ### Images
 
-![Note Taker](public/assets/images/screenshot.png)
+![Note Taker](public/assets/images/screenshot.PNG)
